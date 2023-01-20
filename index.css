@@ -1,0 +1,113 @@
+#header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 20px;
+  background: #ffffdf;
+  box-sizing: border-box;
+}
+
+.top-title {
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-title-explain {
+  margin: 10px 0 10px 0;
+  font-size: 14px;
+}
+
+.menu {
+  margin-top: 10px;
+  padding: 0;
+  color: #5a5d5f;
+}
+
+.text-date {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.text-price {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.menu-card-inner {
+  padding: 0;
+  border-radius: 7px;
+  border-color: black;
+  box-shadow: 1px 1px 4px #d2d4d6;
+  text-align: center;
+  margin: 10px 10px;
+  padding-bottom: 1px;
+}
+
+.menu-image_breadth {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.menu-title {
+  margin: 15px 0 2px 0;
+  font-size: 20px;
+  text-align: left;
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+}
+
+.menu-text {
+  text-align: left;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+}
+
+.menu-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.menu-card {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.sold-out {
+  margin-left: 10px;
+  color: red;
+}
+
+.photo_height {
+  height: 220px;
+}
+
+@media screen and (min-width: 1025px) {
+  .top-title {
+    margin: 10px 0 10px 50px;
+    font-size: 30px;
+  }
+
+  .menu-card-wrapper {
+    margin-top: 120px;
+  }
+
+  .menu-card {
+    width: 33%;
+    margin: 5px 0 10px 0;
+  }
+
+  .menu-card-inner {
+    height: 450px;
+  }
+
+  .photo_height {
+    height: 270px;
+  }
+}
